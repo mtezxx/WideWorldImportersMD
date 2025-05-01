@@ -6,6 +6,18 @@
     <Name>WideWorldImportersMD.database</Name>
     <FullPath>WideWorldImportersMD.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>WideWorldImporters CubeDSV.cube</Name>
+      <FullPath>WideWorldImporters CubeDSV.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>WideWorldImporters CubeDSV.partitions</Name>
+          <FullPath>WideWorldImporters CubeDSV.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>Customer.dim</Name>
