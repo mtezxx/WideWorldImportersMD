@@ -47,6 +47,18 @@
       <Name>Salesperson- Current.dim</Name>
       <FullPath>Salesperson- Current.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Supplier.dim</Name>
+      <FullPath>Supplier.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Payment Method.dim</Name>
+      <FullPath>Payment Method.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Transaction Type.dim</Name>
+      <FullPath>Transaction Type.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

@@ -1,17 +1,17 @@
-﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="bed7fb94-6be4-4a21-be47-7e9f4855a0e5" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2812c134-35d0-47e0-b8c1-910d1ceae9b9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>WideWorldImporters CubeDSV</ID>
   <MeasureGroups>
     <MeasureGroup>
       <ID>Sales</ID>
       <Partitions>
-        <Partition dwd:design-time-name="835d174f-30e4-4b78-af97-84983b8f3f30">
+        <Partition dwd:design-time-name="26eb841e-13cf-4aae-a740-9a7f2a7da418">
           <ID>Sales</ID>
           <Name>Sales 2013</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="QueryBinding" dwd:design-time-name="34e48c53-9d9f-4d4f-80c2-5ead75f2c157">
+          <Source xsi:type="QueryBinding" dwd:design-time-name="5aadeada-e753-4722-85e5-53970220d8a2">
             <DataSourceID>LENOVOMATEJDOWSQL2022</DataSourceID>
             <QueryDefinition>SELECT [Cube].[Sales].[Sale Key],[Cube].[Sales].[City Key],[Cube].[Sales].[WWI City ID],[Cube].[Sales].[Customer Key],[Cube].[Sales].[WWI Customer ID],[Cube].[Sales].[Bill To Customer Key],[Cube].[Sales].[WWI Bill To Customer ID],[Cube].[Sales].[Stock Item Key],[Cube].[Sales].[WWI Stock Item ID],[Cube].[Sales].[Invoice Date Key],[Cube].[Sales].[Delivery Date Key],[Cube].[Sales].[Salesperson Key],[Cube].[Sales].[WWI Employee ID],[Cube].[Sales].[WWI Invoice ID],[Cube].[Sales].[Description],[Cube].[Sales].[Package],[Cube].[Sales].[Quantity],[Cube].[Sales].[Unit Price],[Cube].[Sales].[Tax Rate],[Cube].[Sales].[Total Excluding Tax],[Cube].[Sales].[Tax Amount],[Cube].[Sales].[Profit],[Cube].[Sales].[Total Including Tax],[Cube].[Sales].[Total Dry Items],[Cube].[Sales].[Total Chiller Items],[Cube].[Sales].[Sales Count],[Cube].[Sales].[Lineage Key]
   FROM [Cube].[Sales]
@@ -23,14 +23,14 @@
           <EstimatedRows>61000</EstimatedRows>
           <AggregationDesignID>Initial Sales Aggregation</AggregationDesignID>
         </Partition>
-        <Partition dwd:design-time-name="f742de31-40be-4239-b7f6-61b130c40a36">
+        <Partition dwd:design-time-name="9a4ca148-2a7c-4bd8-b0df-836bfa1193f4">
           <ID>Sales 2014</ID>
           <Name>Sales 2014</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="QueryBinding" dwd:design-time-name="713d9818-82a5-451b-b7ae-21a8ac512589">
+          <Source xsi:type="QueryBinding" dwd:design-time-name="f9bb7b94-a505-45a4-834b-09cf76eeb320">
             <DataSourceID>LENOVOMATEJDOWSQL2022</DataSourceID>
             <QueryDefinition>SELECT [Cube].[Sales].[Sale Key],[Cube].[Sales].[City Key],[Cube].[Sales].[WWI City ID],[Cube].[Sales].[Customer Key],[Cube].[Sales].[WWI Customer ID],[Cube].[Sales].[Bill To Customer Key],[Cube].[Sales].[WWI Bill To Customer ID],[Cube].[Sales].[Stock Item Key],[Cube].[Sales].[WWI Stock Item ID],[Cube].[Sales].[Invoice Date Key],[Cube].[Sales].[Delivery Date Key],[Cube].[Sales].[Salesperson Key],[Cube].[Sales].[WWI Employee ID],[Cube].[Sales].[WWI Invoice ID],[Cube].[Sales].[Description],[Cube].[Sales].[Package],[Cube].[Sales].[Quantity],[Cube].[Sales].[Unit Price],[Cube].[Sales].[Tax Rate],[Cube].[Sales].[Total Excluding Tax],[Cube].[Sales].[Tax Amount],[Cube].[Sales].[Profit],[Cube].[Sales].[Total Including Tax],[Cube].[Sales].[Total Dry Items],[Cube].[Sales].[Total Chiller Items],[Cube].[Sales].[Sales Count],[Cube].[Sales].[Lineage Key]
   FROM [Cube].[Sales]
@@ -42,14 +42,14 @@
           <EstimatedRows>70000</EstimatedRows>
           <AggregationDesignID>Initial Sales Aggregation</AggregationDesignID>
         </Partition>
-        <Partition dwd:design-time-name="89f5e823-abb3-4fca-a097-65171d89d95d">
+        <Partition dwd:design-time-name="7a306a1b-dd3d-451b-bdee-6da6a3df7702">
           <ID>Sales 2015</ID>
           <Name>Sales 2015</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="QueryBinding" dwd:design-time-name="14b2053d-3ba5-4368-900d-4d12622c1edc">
+          <Source xsi:type="QueryBinding" dwd:design-time-name="178046e0-915b-4d7a-8d7a-75145a77af10">
             <DataSourceID>LENOVOMATEJDOWSQL2022</DataSourceID>
             <QueryDefinition>SELECT [Cube].[Sales].[Sale Key],[Cube].[Sales].[City Key],[Cube].[Sales].[WWI City ID],[Cube].[Sales].[Customer Key],[Cube].[Sales].[WWI Customer ID],[Cube].[Sales].[Bill To Customer Key],[Cube].[Sales].[WWI Bill To Customer ID],[Cube].[Sales].[Stock Item Key],[Cube].[Sales].[WWI Stock Item ID],[Cube].[Sales].[Invoice Date Key],[Cube].[Sales].[Delivery Date Key],[Cube].[Sales].[Salesperson Key],[Cube].[Sales].[WWI Employee ID],[Cube].[Sales].[WWI Invoice ID],[Cube].[Sales].[Description],[Cube].[Sales].[Package],[Cube].[Sales].[Quantity],[Cube].[Sales].[Unit Price],[Cube].[Sales].[Tax Rate],[Cube].[Sales].[Total Excluding Tax],[Cube].[Sales].[Tax Amount],[Cube].[Sales].[Profit],[Cube].[Sales].[Total Including Tax],[Cube].[Sales].[Total Dry Items],[Cube].[Sales].[Total Chiller Items],[Cube].[Sales].[Sales Count],[Cube].[Sales].[Lineage Key]
   FROM [Cube].[Sales]
@@ -61,14 +61,14 @@
           <EstimatedRows>75000</EstimatedRows>
           <AggregationDesignID>Initial Sales Aggregation</AggregationDesignID>
         </Partition>
-        <Partition dwd:design-time-name="db287415-a40a-49ed-a17d-86e161338b84">
+        <Partition dwd:design-time-name="ba94d18f-3f81-44de-add9-21165c92ff73">
           <ID>Sales 2016 to Current</ID>
           <Name>Sales 2016 to Current</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="QueryBinding" dwd:design-time-name="52cc9662-1033-4ec1-986d-2589005114ca">
+          <Source xsi:type="QueryBinding" dwd:design-time-name="2a09a5a3-828d-4853-bda8-52fe63be51c0">
             <DataSourceID>LENOVOMATEJDOWSQL2022</DataSourceID>
             <QueryDefinition>SELECT [Cube].[Sales].[Sale Key],[Cube].[Sales].[City Key],[Cube].[Sales].[WWI City ID],[Cube].[Sales].[Customer Key],[Cube].[Sales].[WWI Customer ID],[Cube].[Sales].[Bill To Customer Key],[Cube].[Sales].[WWI Bill To Customer ID],[Cube].[Sales].[Stock Item Key],[Cube].[Sales].[WWI Stock Item ID],[Cube].[Sales].[Invoice Date Key],[Cube].[Sales].[Delivery Date Key],[Cube].[Sales].[Salesperson Key],[Cube].[Sales].[WWI Employee ID],[Cube].[Sales].[WWI Invoice ID],[Cube].[Sales].[Description],[Cube].[Sales].[Package],[Cube].[Sales].[Quantity],[Cube].[Sales].[Unit Price],[Cube].[Sales].[Tax Rate],[Cube].[Sales].[Total Excluding Tax],[Cube].[Sales].[Tax Amount],[Cube].[Sales].[Profit],[Cube].[Sales].[Total Including Tax],[Cube].[Sales].[Total Dry Items],[Cube].[Sales].[Total Chiller Items],[Cube].[Sales].[Sales Count],[Cube].[Sales].[Lineage Key]
   FROM [Cube].[Sales]
@@ -1376,14 +1376,14 @@
     <MeasureGroup>
       <ID>Invoice Sales</ID>
       <Partitions>
-        <Partition dwd:design-time-name="c39a26da-c583-4dbe-8faa-522cdd3ce899">
+        <Partition dwd:design-time-name="eb8ee465-ce39-41b3-9a16-bfa8c2199215">
           <ID>Invoice Sales</ID>
           <Name>Invoice Sales</Name>
           <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
           <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
           <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
           <State>Unprocessed</State>
-          <Source xsi:type="DsvTableBinding" dwd:design-time-name="d757f004-94c5-412b-aac2-f25973552f5b">
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="238709a3-6bca-4824-990d-86f411fda9fb">
             <DataSourceViewID>WideWorldImporters CubeDSV</DataSourceViewID>
             <TableID>Cube_Invoice_x0020_Sales</TableID>
           </Source>
@@ -2094,6 +2094,26 @@
           </Aggregations>
         </AggregationDesign>
       </AggregationDesigns>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Transaction</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="bbe0d8be-ba2e-446b-8420-96e2ef018dc0">
+          <ID>Transaction</ID>
+          <Name>Transaction</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="ff21fab1-3ea0-4e5c-970b-3470f392fc86">
+            <DataSourceViewID>WideWorldImporters CubeDSV</DataSourceViewID>
+            <TableID>Fact_Transaction</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
     </MeasureGroup>
   </MeasureGroups>
 </Cube>
