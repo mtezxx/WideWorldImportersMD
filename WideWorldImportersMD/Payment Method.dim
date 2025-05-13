@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a657e085-61f7-45d0-844a-5601c1f76207" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a44ceedf-b0eb-4cd7-b40f-3af10d2b2e13" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Payment Method</ID>
   <Name>Payment Method</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -84,24 +84,24 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1ee4f554-5e3c-4195-a5ef-782873ce2bc9">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="6353740b-f2c5-4167-8089-401011ebad00">
     <DataSourceViewID>WideWorldImporters CubeDSV</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="5401e812-0a39-4b0a-8773-72be7f56f5ec">
+  <ErrorConfiguration dwd:design-time-name="504d142c-dede-4516-92f2-1968ea36191e">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="8f9839dc-8ed8-489b-a22d-7220c07ba0d9">
+    <Attribute dwd:design-time-name="e1b2be70-6e06-4caa-9ff5-3845da0c850e">
       <ID>WWI Payment Method ID</ID>
       <Name>WWI Payment Method ID</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="61c37e73-b0af-4337-a992-275016c6ac6f">
+        <KeyColumn dwd:design-time-name="3ad21b8c-ab00-4eb4-ae28-47a28b12b191">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="3d3dec29-0bfb-4d6a-8663-43581c65ce14">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="75627abe-27e2-49f9-b277-855981616979">
             <TableID>Dimension_Payment_x0020_Method</TableID>
             <ColumnID>WWI_x0020_Payment_x0020_Method_x0020_ID</ColumnID>
           </Source>
@@ -111,29 +111,30 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="23592eba-64d7-4dc1-a33f-f62c5e47d158">
+    <Attribute dwd:design-time-name="f3b7f9a8-500f-485f-a827-798dce3f955c">
       <ID>Payment Method</ID>
       <Name>Payment Method</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>6</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d6740439-19f1-4cc4-8298-5ae0570d1dc7">
+        <KeyColumn dwd:design-time-name="1c0f0bb7-f45e-424c-a87e-42721d519f82">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e13f5610-715c-48ca-b0c3-7ea06357b920">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="54bb1eb3-962f-4437-aae3-8c0f95b30e70">
             <TableID>Dimension_Payment_x0020_Method</TableID>
             <ColumnID>Payment_x0020_Method_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="18db55e4-93b2-4e3e-ba2a-55b33f0c0a09">
+      <NameColumn dwd:design-time-name="20f59994-6ec6-4b39-891c-77d0da1aea29">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="e43ebd18-9b3b-42ae-ae11-397c8bac6260">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="e5e6b3ec-5537-455e-89fd-4d33b8502732">
           <TableID>Dimension_Payment_x0020_Method</TableID>
           <ColumnID>Payment_x0020_Method</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="1acf8498-0495-4a09-97c3-c53a0c90eb47">
+        <AttributeRelationship dwd:design-time-name="b8ddeb15-0b95-4820-9b3c-c7df4a56ed72">
           <AttributeID>WWI Payment Method ID</AttributeID>
           <Name>WWI Payment Method ID</Name>
         </AttributeRelationship>

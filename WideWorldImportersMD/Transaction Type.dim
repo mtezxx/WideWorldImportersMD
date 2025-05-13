@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="be25aa45-e5da-4fc7-9911-11f470a0a4d9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="12c86ff0-b314-4da6-b4be-1c64154755d4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Transaction Type</ID>
   <Name>Transaction Type</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -84,23 +84,23 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="addb0d28-8dad-454f-9e86-b3fc8dacd838">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="67a282d7-d2fe-4d65-8c7d-4d76e17da886">
     <DataSourceViewID>WideWorldImporters CubeDSV</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="164f2578-836c-4515-93d9-de46a8c017c0">
+  <ErrorConfiguration dwd:design-time-name="3420b48e-1e4c-46e9-b68d-2ca81c39c56c">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="7235d707-22c4-49bd-b404-f39c3d68466d">
+    <Attribute dwd:design-time-name="955c7eec-4269-439e-86d9-65531f5a087e">
       <ID>WWI Transaction Type ID</ID>
       <Name>WWI Transaction Type ID</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="1c7e4876-5ed1-4985-87b6-38e417d95c61">
+        <KeyColumn dwd:design-time-name="799197fa-d15c-44fb-9ec6-dc08ee562007">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="155ccc2e-26d1-4b03-988d-8a91c23066a1">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ae8f4265-4919-425f-bfb6-074ba93c431d">
             <TableID>Dimension_Transaction_x0020_Type</TableID>
             <ColumnID>WWI_x0020_Transaction_x0020_Type_x0020_ID</ColumnID>
           </Source>
@@ -110,29 +110,30 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="20782fdb-fd2f-4879-9099-6ea9b8203c15">
+    <Attribute dwd:design-time-name="75fef247-3036-4183-9e29-7976d65505cd">
       <ID>Transaction Type</ID>
       <Name>Transaction Type</Name>
       <Usage>Key</Usage>
+      <EstimatedCount>15</EstimatedCount>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="549e7b5c-1305-4921-b5a8-d483d518597f">
+        <KeyColumn dwd:design-time-name="827ca071-328a-4afd-8ef0-87aed0fff226">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="21f3f33c-09d5-4b0f-b41e-7b2f298ba977">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c9da72d9-cb96-40d8-ab55-f1b6bc7983c6">
             <TableID>Dimension_Transaction_x0020_Type</TableID>
             <ColumnID>Transaction_x0020_Type_x0020_Key</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
-      <NameColumn dwd:design-time-name="7323e439-d61d-439e-ae51-abcbb80ee4fb">
+      <NameColumn dwd:design-time-name="53fe19e8-2246-4079-8ef9-7e633a2be29a">
         <DataType>WChar</DataType>
         <DataSize>50</DataSize>
-        <Source xsi:type="ColumnBinding" dwd:design-time-name="8302d9a6-7ca9-4bc2-8237-5502ec35374b">
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="a4f76ab5-cd52-44f1-8293-4b2692a1440e">
           <TableID>Dimension_Transaction_x0020_Type</TableID>
           <ColumnID>Transaction_x0020_Type</ColumnID>
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="70d824aa-4c29-4066-9a0c-a23fe125c1f9">
+        <AttributeRelationship dwd:design-time-name="f5a83ebe-660c-4aec-84d6-a269d741c648">
           <AttributeID>WWI Transaction Type ID</AttributeID>
           <Name>WWI Transaction Type ID</Name>
         </AttributeRelationship>
